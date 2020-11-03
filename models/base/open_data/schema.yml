@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: covid19_open_data_eu
+    database: bigquery-public-data
+    tables:
+      - name: covid19_open_data
