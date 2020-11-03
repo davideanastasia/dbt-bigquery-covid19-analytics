@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: covid19_italy_eu
+    database: bigquery-public-data
+    tables:
+      - name: data_by_province
+      - name: data_by_region
+      - name: national_trends

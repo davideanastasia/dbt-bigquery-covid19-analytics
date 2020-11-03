@@ -1,3 +1,5 @@
+{{ config(enabled=False) }}
+
 with tbl1 as (
 
   SELECT row_number() OVER (PARTITION BY location_key ORDER BY date DESC) rn, *
